@@ -3,6 +3,7 @@ export interface Game {
   name: string;
   id: string;
   released: string;
+  metacritic: number;
   metacritic_url: string;
   website: string;
   description: string;
